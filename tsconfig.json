@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "test-utils": ["./test-utils"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "../types.d.ts",
+    "../next-env.d.ts",
+    "../**/*.stories.ts",
+    "../**/*.stories.tsx",
+    "test-utils.ts"
+  ],
+  "exclude": ["dist", "node_modules", "cypress", "./cypress/tsconfig.json", "e2e"]
+}

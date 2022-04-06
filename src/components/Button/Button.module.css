@@ -1,0 +1,12 @@
+.button {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.ghost {
+  color: var(--c-text);
+  background: var(--c-bg-primary);
+}

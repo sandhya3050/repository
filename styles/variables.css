@@ -1,0 +1,28 @@
+:root {
+  --c-primary: #1b4965;
+  --c-primary-light: #62b6cb;
+
+  --c-text-on-p: #ffffff;
+  --c-text-on-s: #0d0c22;
+
+  --c-text: #454545;
+  --c-text-dark: #111111;
+  --c-text-secondary: #6e6d7a;
+
+  --c-icon-color: #6e6d7a;
+
+  --c-bg-primary: #fafafa;
+  --c-bg-primary-dark: #c7c7c7;
+
+  --c-bg-secondary: #ffffff;
+  --c-bg-secondary-dark: #7e8a97;
+  --c-bg-secondary-darker: #919191;
+
+  --c-border: #f3f3f4;
+  --shadow: rgba(0, 0, 0, 0.2);
+
+  --a-60-cubic: 60ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+
+  --green500: #48bb78;
+  --c-pale-pink: #fdcfdf;
+}

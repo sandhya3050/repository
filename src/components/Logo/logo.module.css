@@ -1,0 +1,12 @@
+.logo {
+  color: var(--c-primary);
+  font-size: 2rem;
+  font-weight: 700;
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+  transition: color 90ms ease-in;
+  &:hover {
+    color: var(--c-primary-light);
+  }
+}
